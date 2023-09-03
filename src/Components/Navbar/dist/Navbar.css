@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica&family=Poppins&display=swap");
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(198, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 245);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.navLink {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #F86F03; /* Replace with your desired line color */
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navLink:hover::after {
+  transform: scaleX(1);
+}
+
+.navLink i {
+  position: absolute;
+  bottom: -12px;
+  right: 0;
+  color: blue; /* Replace with your desired arrow color */
+  transition: transform 0.3s ease;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  width: 100%;
+  padding: 0.5rem;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.header .logo .logo-img {
+  width: 4rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.top-logo-img{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .top-logo-img{
+    margin-top: 4rem;
+  }
+  .header .navBar {
+    position: fixed;
+    background: #1d2127;
+    height: 100%;
+    width: 75%;
+    top: -1200px;
+    left: 0%;
+    padding: 1rem;
+    /* transform: translate(-50%);
+    z-index: 2000;
+    transition: 0.6s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out 0s;
+    -moz-transition: transform 0.3s ease-in-out 0s; */
+    transition: transform 0.3s ease-in-out 0s;
+    z-index: 9001;
+    /* -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    transform: translate(0px); */
+  }
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0 0;
+  }
+  .header .navBar .navLists .navItem {
+    padding: 2px 0;
+  }
+  .header .navBar .navLists .navItem .navLink, .btnnav {
+    background: #282d36;
+    border-radius: 2px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 30px;
+    min-width: 200px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+  }
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: orange;
+  }
+  .header .navBar .navLists .btnnav {
+    margin-top: 1rem;
+  }
+  .header .navBar .navLists .btnnav a {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--whiteColor);
+  }
+  .header .navBar .closeNavbar {
+    position: absolute;
+    top: 6rem;
+    right: -2.5rem;
+    color: #1d2127;
+  }
+  .header .navBar .closeNavbar:hover {
+    color: var(--SecondaryColor);
+  }
+  .header .activeNavbar {
+    top: 0rem;
+  }
+  .top-logo-img{
+    width: 1px;
+    opacity: 0;
+  }
+}
+.header .toggleNavbar .icon {
+  font-size: 25px;
+  color: black;
+}
+.header .toggleNavbar:hover.icon {
+  color: var(--SecondaryColor);
+}
+
+@media screen and (min-width: 769px) {
+  .toggleNavbar, .closeNavbar {
+    display: none;
+  }
+  .header {
+    padding: 0.5rem 2rem;
+  }
+  .header .logo .logo-img {
+    width: 7rem;
+  }
+  .header .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .header .navBar .navItem .navLink {
+    color: black;
+    padding: 0 0.45rem;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .header .navBar .navItem .navLink:hover {
+    color: #F86F03;
+  }
+  .header .navBar .btnnav {
+    margin-left: 1rem;
+  }
+  .header .navBar .btnnav a {
+    text-decoration: none;
+    color: var(--whiteColor);
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header .navBar .navLists .navItem {
+    padding: 0 0.9rem;
+  }
+  .header .navBar .navLists .navItem .navLink {
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 0.5rem 8.5rem;
+  }
+}

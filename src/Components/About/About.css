@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Noto+Sans&family=Roboto:wght@300&family=Staatliches&display=swap');
+.pbg-secondary{
+    background-color: #f6f9fc;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.text-center,.card-title{
+    font-weight: 700;
+}
+.ab-text{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.card-body{
+    padding: 3rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .card-body{
+        padding: 2rem;
+        
+    }
+    
+}

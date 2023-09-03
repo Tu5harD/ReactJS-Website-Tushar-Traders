@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap');
+.page-top {
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: initial;
+  background-image: none;
+  background-color: #171717;
+  background-image: -moz-linear-gradient(top, #171717, #171717);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#171717), to(#171717));
+  background-image: -webkit-linear-gradient(top, #171717, #171717);
+  background-image: -o-linear-gradient(top, #171717, #171717);
+  background-image: linear-gradient(to bottom, #171717, #171717);
+  background-repeat: repeat-x;
+  border-top: 5px solid #384045;
+  border-bottom: 5px solid #ccc;
+}
+.page-top {
+  background-color: #171717;
+  min-height: 40px;
+  padding: 8px 0 6px;
+  text-align: left;
+}
+
+.page-top[data-plugin-parallax] {
+  background-position: 50% 50%;
+}
+
+.page-top.wide .container {
+  width: 100%;
+}
+
+.page-top .breadcrumbs-wrap {
+  font-size: 0.9em;
+}
+
+.page-top .breadcrumbs-prefix {
+  margin-right: 10px;
+}
+
+.page-top ul.breadcrumb {
+  display: inline-block;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-top ul.breadcrumb > li {
+  text-shadow: none;
+}
+
+.page-top ul.breadcrumb > li .contact-link {
+  display: inline-block;
+  text-transform: none;
+  border-color: transparent;
+  background: transparent;
+}
+
+.page-top ul.breadcrumb > li + li:before {
+  display: none;
+}
+
+.page-top ul.breadcrumb > li .delimiter {
+  font-family: "FontAwesome";
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  font-style: normal;
+}
+
+.page-top ul.breadcrumb > li .delimiter:before {
+  content: "/\00a0";
+  position: relative;
+  right: -2px;
+}
+
+.page-top ul.breadcrumb > li .delimiter.delimiter-2:before {
+  content: "\f105";
+  right: -1px;
+}
+
+.page-top ul.breadcrumb li span {
+  margin-left: 5px;
+}
+
+.page-top ul.breadcrumb li span:first-child {
+  margin-left: 0;
+}
+
+.page-top .yoast-breadcrumbs {
+  font-size: 12px;
+}
+
+.page-top .yoast-breadcrumbs .contact-link {
+  margin-right: 5px;
+}
+
+.page-top .yoast-breadcrumbs span,.page-top .yoast-breadcrumbs .breadcrumb_last {
+  margin-left: 5px;
+}
+
+.page-top .page-title {
+  font-family: "Noto Sans", sans-serif;
+  display: inline-block;
+  font-size: 1.6em;
+  font-weight: 200;
+  margin: 0;
+  min-height: 37px;
+  line-height: 46px;
+  padding: 0 0 2px;
+  position: relative;
+  letter-spacing: -1px;
+  text-transform: none;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and  (max-width: 767px) {
+  .page-top .page-title {
+      font-size:2em;
+  }
+}
+
+.page-top .page-sub-title {
+  letter-spacing: -1px;
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-top .page-sub-title {
+      font-size:1.2em;
+  }
+  .page-top.page-header-1 .page-title{
+    font-size: 1.2rem;
+  }
+  .page-top {
+    height: 90px;
+}
+}
+
+
+.page-top {
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: initial;
+  background-image: none;
+  background-color: #171717;
+  background-image: -moz-linear-gradient(top, #171717, #171717);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#171717), to(#171717));
+  background-image: -webkit-linear-gradient(top, #171717, #171717);
+  background-image: -o-linear-gradient(top, #171717, #171717);
+  background-image: linear-gradient(to bottom, #171717, #171717);
+  background-repeat: repeat-x;
+  border-top: 5px solid #384045;
+  border-bottom: 5px solid #ccc;
+}
+
+.page-top > .container {
+  padding: 0px 15px 0px 15px;
+}
+
+.page-top ul.breadcrumb > li {
+  color: #777;
+}
+
+.page-top ul.breadcrumb > li .contact-link {
+  color: #ed8446
+}
+
+.page-top ul.breadcrumb > li .delimiter {
+  color: #c3c3c3;
+}
+
+.page-top .yoast-breadcrumbs,.page-top .breadcrumbs-wrap {
+  color: #777;
+}
+
+.page-top .yoast-breadcrumbs a,.page-top .breadcrumbs-wrap .contact-link {
+  color: #ed8446;
+}
+
+.page-top .page-title {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+
+}
+
+.page-top .page-sub-title {
+  color: #e6e6e6;
+  margin: 0px 0px 0px 0px;
+}
+
+.page-top.page-header-1 .page-title {
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: -11px;
+  padding-bottom: 12px;
+  border-bottom: 5px solid #004a25;
+}
+
+.page-top .product-nav .product-link {
+  color: #ed8446;
+}
+
+.page-top .product-nav .product-popup {
+  color: #777;
+}
+
+.page-top .product-nav .product-popup:before {
+  border-bottom-color: #004a25;
+}
+
+.page-top .sort-source > li > a {
+  color: #fff;
+}
+
+.page-top .sort-source > li.active > .contact-link {
+  color: #004a25;
+}
+
+@media screen and (max-width: 767px) {
+
+  .page-top .sort-source {
+      background: #171717;
+      border-top: 5px solid #ccc;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: -5px;
+      bottom: -6px;
+  }
+  .page-top.page-header-1 .page-title {
+    padding-bottom: 4px;
+
+  }
+  
+}
+
+@media screen and  (min-width: 768px) {
+ 
+  #breadcrumbs-boxed {
+      max-width: 750px;
+  }
+}
+
+@media screen and  (min-width: 992px) {
+  #breadcrumbs-boxed {
+      max-width: 990px;
+  }
+}
+
+@media screen and  (min-width: 1170px) {
+  #breadcrumbs-boxed {
+      max-width: 1170px;
+  }
+}

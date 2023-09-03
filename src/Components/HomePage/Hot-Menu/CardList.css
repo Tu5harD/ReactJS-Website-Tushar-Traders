@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap');
+.slick-slide {
+  width: 16rem;
+}
+.sub-text{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.heading{
+    font-family: 'Staatliches', cursive;
+    font-size: 44px;
+    line-height: 69px;
+    color: #006EAB;
+    font-weight: 900;
+}
+.image_wrapper{
+    align-items: center;
+}
+/* .col-sm-12{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+} */
+.our_product{
+    background-color:#f8f9fa;
+}
+.our_product .heading{
+    letter-spacing: 3px;
+    align-items: center;
+}
+.product_title a{
+    font-size: 18px;
+    color: #0f4229;
+    font-weight: 500;
+    display: block;
+}
+.bag-img-back{
+  background-color: #ededed;
+}
+.product-img{
+    /* background-color: #e8f5e9; */
+        margin-bottom: 20px;
+    padding: 20px;
+}
+/* .slick-prev {
+    left: -50px !important;
+}
+
+.slick-prev:before,.slick-next:before {
+    
+    font-family: 'slick' !important;
+    font-size: 40px  !important;
+    line-height: 1;
+    opacity: 1;
+    padding-left: -40px !important;
+    color: #004a25 !important;
+    
+}  */
+.slick-prev::before,.slick-next::before,.slick-prev::after,.slick-next::after{
+    
+  color: #000 !important;
+  font-size: 40px  !important;
+  margin-left: -0.5rem !important;
+}  
+
+.bag-container {
+    /* display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap; */
+    padding: 1rem;
+  }
+  
+  .bag {
+    /* box-shadow: 0 1px 3px rgb(3 0 71/9%); */
+          background-color: #ededed;
+          width: auto;
+          padding: 10px;
+          margin: 11.2px;
+          /* margin-left: 0.6rem; */
+  }
+  
+  .bag-image {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+  }
+  .bag-image:hover{
+    transform: scale(1.1);
+  }
+  .bag-name {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .bag-weight {
+    font-size: 14px;
+    color: #666;
+  }
+  .bag-details{
+    display: flex;
+    justify-content: center;
+  }
+  .home-subpart{
+    background-color: #fff;
+    /* margin-left: -0.65rem;
+    margin-bottom: -0.6rem; */
+    width: auto;
+    padding-bottom: 1rem;
+  }
+  .bag-heading{
+    font-family: "Noto Sans", sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    font-size: 15px;
+    padding-bottom: 2rem;
+    padding-top: 10px;
+    line-height: 25px;
+    font-weight: 900;
+    letter-spacing: 0px;
+  }
+
+  .scale-with-grid {
+    width: 8rem;
+}
+
+
+.button-31 {
+  background-color: #000;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+.sub-text img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+@media screen and (max-width: 768px) {
+  .bag {
+   
+    width: auto;
+  }
+  .home-subpart{
+    width: auto;
+  }
+  .bag-heading{
+    font-size: 18px;
+  }
+  .cattle-feed-heading {
+    font-size: 2.2rem;
+  }
+}
+
+
+.product-title {
+  padding: 20px 20px 5px 20px;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.product-title b {
+  font-weight: 900;
+  letter-spacing: 0px;
+}
+
+
+.badge {
+  position: relative;
+  font-size: 10px;
+  font-weight: 300;
+  color: #fff;
+  background: #11e95b;
+  padding: 2px 5px;
+  border-radius: 4px;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.product-caption {
+  display: block;
+  padding: 0 20px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.product-rating {
+  padding: 0 20px;
+  font-size: 11px;
+}
+
+.product-rating i.grey {
+  color: #acacab;
+} 
+
+
+@media screen and (max-width:768px) {
+  .bag-container {
+ 
+    padding: 1rem;
+}
+.hotMenu-img{
+  display: none;
+}
+}

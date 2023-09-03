@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+
+text-custom{
+    color: #0062ff !important;
+    }
+
+.about-container{
+    
+    width: 100%;
+}
+.aboutus-container{
+    width: 100%;
+
+    padding: 35px 20px 60px 20px;
+}
+.main-aboutus{
+    color: #006EAB;
+    font-weight: 500;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px 10px 10px 10px;
+}
+.main-textabout{
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 0px 0px 0px 0px;
+    font-size: 1rem;
+    text-align: justify;
+}
+.text-about{
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #000;
+    font-size: 17px;
+    text-align: justify;
+}
+.befit-arrowtext{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+/* .media{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+} */
+@media screen and (max-width: 768px){
+    .text-about{
+        font-size: 16px;
+    }
+    .main-aboutus{
+        font-size: 2.2rem;
+        padding: 0;
+    }
+    .main-textabout{
+        font-size: 16px;
+    }
+    .befit-arrowtext-div{
+        margin: 0px 0px -40px 0px;
+    }
+    .img-abou{
+        padding: 50px 0px 0px 0px;
+
+    }
+}
