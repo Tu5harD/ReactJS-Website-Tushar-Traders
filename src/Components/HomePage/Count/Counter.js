@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import './Counter.css'
+import "./Counter.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 export default function Counter() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -10,12 +12,11 @@ export default function Counter() {
     { target: 122, label: "Wholesale Customer" },
     { target: 131, label: "Dairy Farmers" },
     { target: 15, label: "Cattle Feed Product" },
-    { target: 5168, label: "Happy customers every year" }
-
+    { target: 5168, label: "Happy customers every year" },
   ];
 
   const speed = 15;
-  
+
   const CounterItem = ({ target, label }) => {
     const [count, setCount] = useState(0);
 
@@ -39,10 +40,12 @@ export default function Counter() {
   };
 
   return (
-    <div className="counter-wrapper">
-      {counterData.map((data, index) => (
-        <CounterItem key={index} target={data.target} label={data.label} />
-      ))}
+    <div className="">
+      <div className="counter-wrapper" style={{ marginTop: "40px" }}>
+        {counterData.map((data, index) => (
+          <CounterItem key={index} target={data.target} label={data.label} />
+        ))}
+      </div>
     </div>
   );
 }

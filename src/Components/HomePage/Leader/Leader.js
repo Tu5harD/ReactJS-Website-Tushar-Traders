@@ -11,7 +11,7 @@ const Leader = () => {
   });
   return (
     <>
-      <section class="feed-your-cattle pt-3 pb-3">
+      <section class="feed-your-cattle pt-3">
         <div class="container pt-5 pb-5" data-aos="fade-right">
           <div class="row">
             <div class="col-sm-12">
